@@ -1,5 +1,5 @@
 /**************************************************************************\
-$VER: BBSLink List, v1.0.0 (Sep-17-2019) by k1ds3ns4t10n of -X-caliber BBS
+$VER: BBSLink List, v1.0.0 (Sep-19-2019) by k1ds3ns4t10n of -X-caliber BBS
 \**************************************************************************/
 options results;signal on SYNTAX;signal on ERROR;signal on IOERR
 a=sourceline(2);parse var a . " " title ", " ver " (" vdate ") by " author " " .
@@ -16,7 +16,7 @@ changewhere "BBSLink List"
 /*    that are connected with BBSLink.net                                 */
 /*                                                                        */
 /*  Changelog:                                                            */
-/*    v1.0.0 (17 Sep 2019) by k1ds3ns4t10n of -X-caliber BBS              */
+/*    v1.0.0 (19 Sep 2019) by k1ds3ns4t10n of -X-caliber BBS              */
 /*                                                                        */
 /*  Use at your own risk.                                                 */
 /*                                                                        */
