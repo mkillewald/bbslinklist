@@ -3,6 +3,7 @@
 A C-Net Pfile written in ARexx used to display a list of BBS systems that have joined BBSLink.net
 http://www.bbslink.net/list.php
 
+![BBSLink List](https://github.com/mkillewald/bbslinklist/blob/master/screenshots/bbslinklist.png)
 
 **************************************************************************
 
