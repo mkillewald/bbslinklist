@@ -223,7 +223,7 @@ return
 */
 getList: procedure expose se tr mg esc ver s. g. resultArr.
 
-  filename= "rawhtmllist"g.uid
+  filename= "listhtml"g.uid
 
   /* Delete the last results file in case it wasn't deleted last time */
   call deleteFile(filename)
@@ -372,7 +372,7 @@ return
 displayList: procedure expose g. resultArr.
   
   /* open a file to write results to */
-  filename = "bbslinklist"||g.uid
+  filename = "listdisplay"||g.uid
   filePath = g.tempPath||filename
    
   if open(BLL, filePath, 'w') then do
